@@ -1,7 +1,5 @@
 /* Tags */
-body {
-    min-width:320px;
-}
+
 
 /* IDs */
 
@@ -30,10 +28,18 @@ body {
 
 .itemText {
     display: inline-block;
-    transform: translateY(60%);
+    
 }
 
-.logo {
+#itemViewport {
+    display: inline-block;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.marginBot10 {
     margin-bottom: 10px;
 }
 
@@ -60,4 +66,29 @@ body {
 /* Utilities */
 .hidden {
     display: none;
+}
+
+@media (max-width: 767px) {
+    .row {
+        margin-right:0px;
+    }
+}
+
+@media (max-width: 411px) {
+    .itemText div {
+        margin-left:0px;
+        margin-right:0px;
+    }
+    
+    .itemDescription p {
+        margin-left:15px;
+    }
+    
+    .row div {
+        padding:1px;
+    }
+    
+    .btn {
+        padding:2px 5px;
+    }
 }

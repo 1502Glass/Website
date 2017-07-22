@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport"  />
+        
+        <title>1502 Glass</title>
+        <link href="../1502Glass.css" rel="stylesheet" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+        <!--
+        <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
+        -->
+    </head>
+    <body>
+        <div id="container" class="container-fluid">
+            <div id="topBanner" class="row topBanner">
+                <div id="logoDiv" class="col-xs-4">
+                    <img id="logo" class="logo" src="../imgs/Logo.png">
+                </div>
+                
+                <div id="backLink" class="backLink col-xs-6">
+                    <a href="../1502Glass.html">
+                      <span class="glyphicon glyphicon-chevron-left"></span>Home
+                    </a>
+                </div>
+                
+                <div id="shoppingCartIcon" class="shoppingCartIcon col-xs-2">
+                    <a href="#" class="btn btn-info btn-sm">
+                      <span class="glyphicon glyphicon-shopping-cart"></span> 
+                    </a>
+                </div>
+                <!--
+                <div id="loginDiv" class="loginDiv topBannerPad hidden">
+                    <form id="loginMenu" class="">
+                        <input id="username" type="text" placeholder="Username">
+                        <input id="password" type="text" placeholder="Password">
+                        <button id="loginButton" class="btn-primary">Login</button>
+                    </form>
+                </div>
+                -->
+            </div>
+            
+            <div id="viewportModal" class="hidden" title="">
+                <div id="zoomedImgDiv" class="col-xs-8">
+                    <img id="zoomedImg" src="#" class="img-responsive">
+                </div>
+                <div id="itemInfoDiv" class="col-xs-4">
+                    
+                </div>
+            </div>
+
+            <div id="itemViewport" class="row">
+                <div id="itemPicture" class="itemPicture col-xs-6">
+                    <img src="../imgs/inventory/1502%20-%207.jpg" class="img-responsive"/>
+                </div>
+                <div id="itemText" class="itemText col-xs-6">
+                    <div id="itemHeader" class="row">
+                        <div id="itemNameDiv" class="col-xs-4">
+                            <label>Torch (Sky)</label>
+                        </div>
+                        <div id="itemPriceDiv" class="col-xs-2">
+                            <label>$25</label>
+                        </div>
+                        <div id="buyItNowDiv" class="col-xs-3">
+                            <button class="btn btn-sm">Buy It Now</button>
+                        </div>
+                        <div id="addtoCartDiv" class="col-xs-3">
+                            <button class="btn btn-sm">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div id="itemDescription">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue semper felis, non luctus turpis. In gravida orci nisl, vitae efficitur quam molestie sed. Suspendisse ultrices eleifend erat, a ultrices augue sollicitudin placerat. Ut sollicitudin risus vitae posuere facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur sagittis urna in semper tincidunt. Curabitur aliquam condimentum leo at venenatis. Aenean sem ex, consequat quis iaculis sit amet, sodales vel ligula.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <script type="text/javascript" src="../JS/inventoryItem.js" ></script>
+        <!--
+        <script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+        <script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        -->
+    </body>
+</html>

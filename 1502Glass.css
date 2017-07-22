@@ -1,0 +1,63 @@
+/* Tags */
+body {
+    min-width:320px;
+}
+
+/* IDs */
+
+
+/* Solo Classes */
+/*
+.loginDiv {
+    float:right;
+    font-size: 12px;
+    padding: 0px;
+    width: 260px
+}
+
+.loginDiv  input{
+    width:100px;
+}
+
+.loginDiv  *{
+    display: inline-block;
+}
+*/
+.backLink {
+    transform: translateY(400%);   
+    vertical-align: middle;
+}
+
+.itemText {
+    display: inline-block;
+    transform: translateY(60%);
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.mobilePic img{
+    margin:auto;
+    max-height: 300px;
+    text-align:  center;
+}
+
+.shoppingCartIcon {
+    text-align: right;
+    transform: translateY(225%);    
+}
+
+.topBanner {
+    border-bottom: 2px solid black;
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+    width: 104%;
+}
+
+
+/* Utilities */
+.hidden {
+    display: none;
+}

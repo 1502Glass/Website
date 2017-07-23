@@ -26,13 +26,14 @@
     vertical-align: middle;
 }
 
+.centerWidth {
+    margin: auto;
+    max-width: 1000px;
+}
+
 .itemText {
     display: inline-block;
     
-}
-
-#itemViewport {
-    display: inline-block;
 }
 
 .marginTop10 {
@@ -41,6 +42,10 @@
 
 .marginBot10 {
     margin-bottom: 10px;
+}
+
+.marginRight {
+    margin-right: 25px;
 }
 
 .mobilePic img{

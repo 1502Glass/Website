@@ -7,28 +7,24 @@
         <meta content="width=device-width, initial-scale=1" name="viewport"  />
         
         <title>1502 Glass</title>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+        
         <link href="../1502Glass.css" rel="stylesheet" />
-        <!--
-        <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
-        -->
+        
     </head>
     <body>
         <div id="container" class="container-fluid">
-            <div id="topBanner" class="row topBanner">
-                <div id="logoDiv" class="col-xs-5">
-                    <img id="logo" class="marginBot10" src="../imgs/Logo.png">
-                </div>
-                
-                <div id="backLink" class="backLink col-xs-5">
-                    <a href="../1502Glass.html">
-                      <span class="glyphicon glyphicon-chevron-left"></span>Home
+            <div id="topBanner" class="topBanner">
+                <div id="logoDiv" class="logoDiv">
+                    <img id="logo" class="" src="../imgs/Logo.png">
+                    
+                    <a href="../index.html">
+                      <button class="button">Home</button>
                     </a>
                 </div>
                 
-                <div id="shoppingCartIcon" class="shoppingCartIcon col-xs-2">
-                    <a href="#" class="btn btn-sm btn-info marginRight">
-                      <span class="glyphicon glyphicon-shopping-cart"></span> 
+                <div id="shoppingCartDiv" class="shoppingCartDiv">
+                    <a href="#" id="shoppingCartLink" class=""> 
+                        <img src="../imgs/icons/shopping_cart.png" id="shoppingCartImg" />
                     </a>
                 </div>
                 <!--
@@ -42,26 +38,23 @@
                 -->
             </div>
             
-            <div id="itemViewport" class="row">
-                <div id="itemPicture" class="itemPicture col-xs-6">
+            <div id="itemViewport" class="itemViewport">
+                <div id="itemPicture" class="itemPicture">
                     <img src="../imgs/inventory/1502%20-%206.jpg" class="img-responsive"/>
                 </div>
-                <div id="itemText" class="itemText col-xs-6">
-                    <div id="itemHeader" class="row">
-                        <div id="itemNameDiv" class="col-xs-4">
-                            <label>Jupiter Skull</label>
+                <div id="itemText" class="itemText">
+                    <div id="itemHeader" class="itemHeader">
+                        <div id="itemNameDiv" class="itemNameDiv">
+                            <label>Jupiter Skull - $25</label>
                         </div>
-                        <div id="itemPriceDiv" class="col-xs-2">
-                            <label>$20</label>
+                        <div id="buyItNowDiv" class="buyItNowDiv">
+                            <button class="button">Buy It Now</button>
                         </div>
-                        <div id="buyItNowDiv" class="col-xs-3">
-                            <button class="btn btn-sm btn-info">Buy It Now</button>
-                        </div>
-                        <div id="addtoCartDiv" class="col-xs-3">
-                            <button class="btn btn-sm btn-info">Add To Cart</button>
+                        <div id="addtoCartDiv" class="addtoCartDiv">
+                            <button class="button">Add To Cart</button>
                         </div>
                     </div>
-                    <div id="itemDescription" class="itemDescription marginTop10">
+                    <div id="itemDescription" class="">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue semper felis, non luctus turpis. In gravida orci nisl, vitae efficitur quam molestie sed. Suspendisse ultrices eleifend erat, a ultrices augue sollicitudin placerat. Ut sollicitudin risus vitae posuere facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur sagittis urna in semper tincidunt. Curabitur aliquam condimentum leo at venenatis. Aenean sem ex, consequat quis iaculis sit amet, sodales vel ligula.</p>
                     </div>
                 </div>

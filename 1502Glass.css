@@ -1,10 +1,56 @@
 /* Tags */
+label {
+    font-size: 20px;
+}
 
+p {
+    text-indent: 1.0em;
+}
 
-/* IDs */
+/* Multi Classes */
+.button {
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+}
 
 
 /* Solo Classes */
+.addToCartDiv{
+    width:25%;
+}
+
+.buyItNowDiv{
+    width:25%;
+}
+
+.itemHeader {
+    display: flex;
+}
+
+.itemNameDiv{
+    width:50%;
+}
+
+.itemPicture {
+    width:50%   
+}
+
+.itemText {
+    align-self: center;
+    display: inline-block;
+    width:50%;
+}
+
+.itemViewport {
+    display: flex;
+}
 /*
 .loginDiv {
     float:right;
@@ -21,27 +67,51 @@
     display: inline-block;
 }
 */
-.backLink {
-    transform: translateY(400%);   
-    vertical-align: middle;
+.logoDiv {
+    width:300px;
 }
 
+.shoppingCartDiv {
+    align-self: flex-end;
+    margin: 0px 5px 0px 5px;
+    width:48px;
+}
+
+.topBanner {
+    border-bottom: 2px solid black;
+    display: flex;
+    height: 105px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topBanner div{
+    display: inline-block;
+}
+
+
+/* Utilities */
 .centerWidth {
     margin: auto;
     max-width: 1000px;
 }
 
-.itemText {
-    display: inline-block;
-    
+.itemHeader {
+    margin:auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 .marginTop10 {
     margin-top: 10px;
-}
-
-.marginBot10 {
-    margin-bottom: 10px;
 }
 
 .marginRight {
@@ -54,46 +124,29 @@
     text-align:  center;
 }
 
-.shoppingCartIcon {
-    text-align: right;
-    transform: translateY(225%);    
-}
 
-.topBanner {
-    border-bottom: 2px solid black;
-    display: inline-block;
-    margin-top: 20px;
-    position: relative;
-    width: 104%;
-}
-
-
-/* Utilities */
-.hidden {
-    display: none;
-}
-
+/* Media */
 @media (max-width: 767px) {
-    .row {
-        margin-right:0px;
+    .addToCartDiv{
+        margin:10px 0px 10px 0px;
+        width:100%;
+    }
+
+    .buyItNowDiv{
+        margin:10px 0px 10px 0px;
+        width:100%;
+    }
+
+    .itemHeader {
+        display: block;
+    }
+
+    .itemNameDiv{
+        width:100%;
     }
 }
 
 @media (max-width: 411px) {
-    .itemText div {
-        margin-left:0px;
-        margin-right:0px;
-    }
     
-    .itemDescription p {
-        margin-left:15px;
-    }
     
-    .row div {
-        padding:1px;
-    }
-    
-    .btn {
-        padding:2px 5px;
-    }
 }
